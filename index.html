@@ -15,7 +15,7 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top" >
       <div class="container-fluid">
         <div class="navbar-brand font-dancer font-dancer">
           Delicious <span class="text-warning">Restaurant</span>
@@ -35,10 +35,10 @@
       <div class="collapse navbar-collapse" id="navbar-item">
         <ul class="navbar-nav ms-auto px-3 gap-4 fw-lighter">
           <li class="nav-item">
-            <a href="" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Specials</a>
+            <a href="#specials" class="nav-link" >Specials</a>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link">Chefs</a>
@@ -53,7 +53,7 @@
       </div>
     </nav>
     <!--slider section-->
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide ">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -117,6 +117,45 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
+    <!--specials section-->
+    <div class="my-5" id="specials">
+      <div class="container text-center">
+        <div class="grid">
+          <div class="row">
+            <div class="col-4">
+                <i class="fa-solid fa-hand-holding-droplet fa-4x text-success"></i>
+                <p class="font-dancer fst-italic fw-bolder h2 mt-3">HandPicked Items</p>
+                <p class="fw-lighter fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                  ab, assumenda magni quis officiis vero quaerat qui aut aperiam,
+                  ullam inventore voluptatum ratione, cum quibusdam quod ipsum iusto
+                  enim temporibus.
+                </p>
+              </div>
+              <div class="col-4">
+                <i class="fa-sharp fa-solid fa-heart fa-4x text-danger"></i></i>
+                <p class="font-dancer fst-italic fw-bolder h2 mt-3">Made with love</p>
+                <p class="fw-lighter fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                  ab, assumenda magni quis officiis vero quaerat qui aut aperiam,
+                  ullam inventore voluptatum ratione, cum quibusdam quod ipsum iusto
+                  enim temporibus.
+                </p>
+              </div>
+              <div class="col-4">
+                <i class="fa-solid fa-hand-point-up fa-4x text-warning"></i>
+                <p class="font-dancer fst-italic fw-bolder h2 mt-3">Delicious food</p>
+                <p class="fw-lighter fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+                  ab, assumenda magni quis officiis vero quaerat qui aut aperiam,
+                  ullam inventore voluptatum ratione, cum quibusdam quod ipsum iusto
+                  enim temporibus.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--js-->
